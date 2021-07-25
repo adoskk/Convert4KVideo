@@ -1,3 +1,6 @@
 [submodule "Fast-SRGAN"]
 	path = Fast-SRGAN
 	url = git@github.com:HasnainRaz/Fast-SRGAN.git
+[submodule "arXiv2020-RIFE"]
+	path = arXiv2020-RIFE
+	url = git@github.com:hzwer/arXiv2020-RIFE.git
