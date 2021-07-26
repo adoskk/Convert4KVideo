@@ -14,8 +14,8 @@ parser.add_argument('--output_video', type=str,
 
 def main():
     args = parser.parse_args()
-    input_folder = args.input_video
-    output_video = args.output_imgdir
+    input_folder = args.input_imgdir
+    output_video = args.output_video
 
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     video = cv2.VideoWriter(output_video, fourcc, 24, (5120, 2880))
